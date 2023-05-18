@@ -53,7 +53,7 @@ def main():
 
         magazalar[magaza_adi].satis_kayitlari(satis_zamani, tutar)
 
-        devam = input("Farklı Satış Bilgisi Girmek İçin 'e'ye Basın, Çıkmak İçin 'h'ye Basın (e/h): ")
+        devam = input("Farklı Satış Bilgisi Girmek İçin 'e'ye , Çıkmak İçin 'h'ye Basın (e/h): ")
         if devam.lower() != "e":
             break
 
