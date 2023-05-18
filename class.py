@@ -26,12 +26,12 @@ class Magaza:
     def set_satici_adi(self, satici_adi):
         self.__satici_adi = satici_adi
 
-    def get_satici_cinsi(self):
-        return self.__satici_cinsi
-
     def set_satici_cinsi(self, satici_cinsi):
         self.__satici_cinsi = satici_cinsi
-
+        
+    def get_satici_cinsi(self):
+        return self.__satici_cinsi
+    
     def satici_satis_tutari(self):
         toplam_satis_tutari = 0
         for satis_zamani, tutar in self.__yapilan_satislar.items():
