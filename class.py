@@ -59,7 +59,7 @@ def main():
 
     for magaza_adi, magaza in magazalar.items():
         print(f"{magaza_adi}:")
-        print(f"\t{magaza.get_satici_adi()} Adlı Satıcının Yaptığı Satış Tutarı : {magaza.satici_satis_tutari()}")
+        print(f"\t{magaza.get_satici_adi()} İsimli Satıcının Yaptığı Satış Tutarı : {magaza.satici_satis_tutari()}")
         print(f"\tToplam Satış Tutarı : {magaza.magaza_satis_tutari()}")
 
 
