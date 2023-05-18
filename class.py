@@ -43,7 +43,7 @@ def main():
     while True:
         magaza_adi = input("Satış Mağazasının İsmi : ")
         satici_adi = input("Satıcının Adı : ")
-        satici_cinsi = input("Satıcı Cinsi : ")
+        satici_cinsi = input("Satıcının Sattığı Ürünün Cinsi : ")
         satis_zamani = input("Satışın Yapıldığı Zaman Dilimi :(GG-AA-YY): ")
         tutar = float(input("Yapılan Satışın Tutarı : "))
 
