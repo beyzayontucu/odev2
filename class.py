@@ -44,7 +44,7 @@ def main():
         magaza_adi = input("Mağazanın Adı : ")
         satici_adi = input("Satıcının Adı : ")
         satici_cinsi = input("Satıcı Cinsi : ")
-        satis_zamani = input("Satışın Yapıldığı Zaman :(GG-AA-YY): ")
+        satis_zamani = input("Satışın Yapıldığı Zaman Dilimi :(GG-AA-YY): ")
         tutar = float(input("Satışın Tutarı : "))
 
 
