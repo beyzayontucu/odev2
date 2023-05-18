@@ -45,7 +45,7 @@ def main():
         satici_adi = input("Satıcının Adı : ")
         satici_cinsi = input("Satıcı Cinsi : ")
         satis_zamani = input("Satışın Yapıldığı Zaman Dilimi :(GG-AA-YY): ")
-        tutar = float(input("Satışın Tutarı : "))
+        tutar = float(input("Yapılan Satışın Tutarı : "))
 
 
         if magaza_adi not in magazalar:
