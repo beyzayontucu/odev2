@@ -41,7 +41,7 @@ class Magaza:
 def main():
     magazalar = {}
     while True:
-        magaza_adi = input("Mağazanın Adı : ")
+        magaza_adi = input("Satış Mağazasının İsmi : ")
         satici_adi = input("Satıcının Adı : ")
         satici_cinsi = input("Satıcı Cinsi : ")
         satis_zamani = input("Satışın Yapıldığı Zaman Dilimi :(GG-AA-YY): ")
